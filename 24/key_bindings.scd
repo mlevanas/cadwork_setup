@@ -1,0 +1,22 @@
+version 24
+modifer		#:#0
+Keycode		#:#2
+NrKategorie		#:#11
+NrBefehl		#:#20
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+cdummy		#:#
+modifer		#:#1
+Keycode		#:#2
+NrKategorie		#:#11
+NrBefehl		#:#70
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+cdummy		#:#
+end of data v24
