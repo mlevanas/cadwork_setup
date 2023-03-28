@@ -1,18 +1,18 @@
 [CDb3dTdoExport]
 layoutFilename=EnergyHouses.2dc
-layoutFrame=A4
+layoutFrame=A4-PLAN
 scaleType=1
-scaleValue=33
-scaleUsePredefinedList=true
+scaleValue=1
+scaleUsePredefinedList=false
 modeHiddenline=0
 showAttributes=true
-groupOptions=0
-customScaleList\size=5
+groupOptions=1
 customScaleList\1\scale=10
 customScaleList\2\scale=20
 customScaleList\3\scale=30
 customScaleList\4\scale=40
 customScaleList\5\scale=50
+customScaleList\size=5
 
 [CDb3dHiddenlineSmoothing]
 smoothing\1\angle=30
@@ -63,7 +63,6 @@ smoothing\12\angle=30
 smoothing\12\smoothVisible=true
 smoothing\12\smoothInvisible=true
 smoothing\12\color=12
-smoothing\size=256
 smoothing\13\angle=0
 smoothing\13\smoothVisible=false
 smoothing\13\smoothInvisible=false
@@ -1040,6 +1039,7 @@ smoothing\256\angle=0
 smoothing\256\smoothVisible=false
 smoothing\256\smoothInvisible=false
 smoothing\256\color=256
+smoothing\size=256
 
 [CDb3dAttribOutput]
 id=420
@@ -1054,13 +1054,13 @@ distanceMM=0
 distancePercent=50
 adjustmentType=1
 positionOptimized=true
-leaderLineMode=2
+leaderLineMode=0
 textCombined=false
 combineBoltsAndCA=false
 combineBoltsAndCADistance=100
 isTemporary=false
 extOptions=0
-CDb3dAttribTypesInOutput\1\id=16531163
+CDb3dAttribTypesInOutput\1\id=17045898
 CDb3dAttribTypesInOutput\1\outputId=420
 CDb3dAttribTypesInOutput\1\cwIndex=6
 CDb3dAttribTypesInOutput\1\priority=1
