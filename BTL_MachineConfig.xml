@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MachineSettings SettingGuid="{F0C4EA74-5A18-4228-B93A-7E64C44ADFFB}">
+    <TyroleanDoveTail isAllowed="true" CheckState="UnChecked">
+        <ToolAngleForTyroleanDoveTail>0</ToolAngleForTyroleanDoveTail>
+    </TyroleanDoveTail>
+    <DoveTail isAllowed="true" CheckState="UnChecked"/>
+    <DrillingOnRafter isAllowed="true">
+        <RecognizeBirdsMouthDrillings isChecked="UnChecked">
+            <MinBirdsMouthDepthForDrillings>0</MinBirdsMouthDepthForDrillings>
+            <MaxBirdsMouthDepthForDrillings>0</MaxBirdsMouthDepthForDrillings>
+            <StandardDrillerForBirdsMouthDrillings isChecked="UnChecked">
+                <DiameterForBirdsMouthDrillings>0</DiameterForBirdsMouthDrillings>
+            </StandardDrillerForBirdsMouthDrillings>
+            <RecognizeBirdsMouthDrillingsThrough isChecked="UnChecked">
+                <MaxDepthForBirdsMouthDrillings>0</MaxDepthForBirdsMouthDrillings>
+            </RecognizeBirdsMouthDrillingsThrough>
+            <RecognizeTwoBirdsMouthDrillings isChecked="UnChecked">
+                <MinBirdsMouthWidthForTwoDrillings>0</MinBirdsMouthWidthForTwoDrillings>
+            </RecognizeTwoBirdsMouthDrillings>
+            <DrillingOffset MinOffset="0" MaxOffset="50" Horizontal="true" Vertical="false"/>
+        </RecognizeBirdsMouthDrillings>
+    </DrillingOnRafter>
+    <RoundArch isAllowed="true" CheckState="UnChecked">
+        <RoundArchType>convex and concave</RoundArchType>
+    </RoundArch>
+    <BirdMouth isAllowed="true" CheckState="UnChecked">
+        <RecognizeBirdsMouthWithPurlinWidth isChecked="UnChecked">
+            <MinPurlinWidth>0</MinPurlinWidth>
+            <MaxPurlinWidth>999</MaxPurlinWidth>
+        </RecognizeBirdsMouthWithPurlinWidth>
+    </BirdMouth>
+    <Contour5Axis isAllowed="true" CheckState="UnChecked">
+        <Contour5AxisTool></Contour5AxisTool>
+        <Contour5AxisMaxSegmentLength>0</Contour5AxisMaxSegmentLength>
+        <UseCircularArcs Checked="false"/>
+        <Contour5AxisToolPosition>mitting</Contour5AxisToolPosition>
+    </Contour5Axis>
+    <ContourBlank isAllowed="true" CheckState="UnChecked">
+        <ContourBlankTool></ContourBlankTool>
+        <ContourBlankWithHighProirity isChecked="UnChecked"/>
+        <ContourBlankToolPosition>rechts</ContourBlankToolPosition>
+    </ContourBlank>
+    <DadoRabbet isAllowed="true" CheckState="UnChecked">
+        <MaxWidthForDadoRabbets>200</MaxWidthForDadoRabbets>
+        <RecognizeDadoRabbetsDependentOfLength isChecked="UnChecked">
+            <MinLengthForDadoRabbets>30</MinLengthForDadoRabbets>
+        </RecognizeDadoRabbetsDependentOfLength>
+    </DadoRabbet>
+    <Inscription isAllowed="true" CheckState="UnChecked">
+        <InscriptionTextFromPosNrEtc isChecked="UnChecked"/>
+        <InscriptionConfiguration UseAttributesDisplaySelection="UnChecked">
+            <SelectedList ExportInscriptionToMachine="UnChecked"/>
+            <TextSeparator>/</TextSeparator>
+            <X_SectionSeparator>x</X_SectionSeparator>
+            <TextPosition>Bottom</TextPosition>
+            <TextPositionLengthDimension LengthUnit="mm" Length="0"/>
+            <TextAdjustment>Left</TextAdjustment>
+            <TextHeight>0</TextHeight>
+            <TextOrientation>Normal</TextOrientation>
+            <ComponentSide>2</ComponentSide>
+        </InscriptionConfiguration>
+    </Inscription>
+    <FrontSlot isAllowed="true" CheckState="UnChecked">
+        <MaxWidthForFrontSlots>200</MaxWidthForFrontSlots>
+        <RecognizeFrontSlotsDependentOfDepth isChecked="UnChecked">
+            <MaxDepthForFrontSlots>0</MaxDepthForFrontSlots>
+        </RecognizeFrontSlotsDependentOfDepth>
+        <RecognizeFrontSlotsDependentOfDepthAndLength isChecked="UnChecked"/>
+    </FrontSlot>
+    <RidgeValleyCut isAllowed="true" CheckState="UnChecked">
+        <RecognizePartialRidgeValleyCuts isChecked="UnChecked">
+            <RecognizeRidgeValleyCutType>Ridge and Valley</RecognizeRidgeValleyCutType>
+            <MinLengthForPartialRidgeValleyCuts>120</MinLengthForPartialRidgeValleyCuts>
+        </RecognizePartialRidgeValleyCuts>
+    </RidgeValleyCut>
+    <StartMarking isAllowed="true" isChecked="UnChecked">
+        <StartMarkingType Type="1">
+            <StartMarkingNotchDepth>2</StartMarkingNotchDepth>
+            <StartMarkingDrillingDiameter>0</StartMarkingDrillingDiameter>
+            <StartMarkingDrillingDepth>0</StartMarkingDrillingDepth>
+        </StartMarkingType>
+        <StartMarkingPosition Position="0">
+            <StartMarkingStartDistance>100</StartMarkingStartDistance>
+            <StartMarkingEndDistance>0</StartMarkingEndDistance>
+        </StartMarkingPosition>
+        <StartMarkingSide Side="2"/>
+        <StartMarkingDouble isChecked="UnChecked">
+            <StartMarkingDoubleDistance>50</StartMarkingDoubleDistance>
+        </StartMarkingDouble>
+    </StartMarking>
+    <Planing isAllowed="true" CheckState="UnChecked"/>
+    <ContourOutside isAllowed="true" CheckState="UnChecked">
+        <ContourOutsideTool></ContourOutsideTool>
+        <DoContourOutsideSimplify isChecked="UnChecked">
+            <ContourOutsideSimplifyDistance>0</ContourOutsideSimplifyDistance>
+        </DoContourOutsideSimplify>
+        <RecognizeContourOutsideOnBlank isChecked="UnChecked"/>
+        <RecognizeContourOutsideArcsOnly isChecked="UnChecked"/>
+        <ContourOutsideToolPosition>rechts</ContourOutsideToolPosition>
+    </ContourOutside>
+    <Slot isAllowed="true" CheckState="UnChecked">
+        <MaxWidthForSlots>30</MaxWidthForSlots>
+        <RecognizeSlotsDependentOfLength isChecked="UnChecked">
+            <MaxLengthForSlots>2000</MaxLengthForSlots>
+        </RecognizeSlotsDependentOfLength>
+    </Slot>
+    <ProfileHead isAllowed="true" CheckState="UnChecked"/>
+    <SeathingCut isAllowed="true" CheckState="UnChecked">
+        <MinLengthForSeathingCuts>500</MinLengthForSeathingCuts>
+        <MaxDepthForSeathingCuts>25</MaxDepthForSeathingCuts>
+    </SeathingCut>
+    <ContourInside isAllowed="true" CheckState="UnChecked">
+        <ContourInsideTool></ContourInsideTool>
+        <ContourInsideWithHighProirity isChecked="UnChecked"/>
+        <ContourInsideToolPosition>rechts</ContourInsideToolPosition>
+    </ContourInside>
+    <Endtype isAllowed="true" CheckState="UnChecked">
+        <CuttingEndtypesAllowed isChecked="UnChecked"/>
+        <DoNotDrillEndtypes isChecked="UnChecked"/>
+    </Endtype>
+    <LongitudinalCut isAllowed="true" CheckState="UnChecked">
+        <RecognizePartialLongitudinalCuts isChecked="UnChecked">
+            <MinLengthForPartialLongitudinalCuts>120</MinLengthForPartialLongitudinalCuts>
+        </RecognizePartialLongitudinalCuts>
+        <DoLongitudinalCutOnPanelNarrowFaces isChecked="UnChecked"/>
+    </LongitudinalCut>
+    <Chamfer isAllowed="true" CheckState="UnChecked">
+        <MaxDepthForChamfers>0</MaxDepthForChamfers>
+        <ChamferFeed>0</ChamferFeed>
+    </Chamfer>
+    <HalfLapPocket isAllowed="true" isChecked="Checked"/>
+    <ContourPocket isAllowed="true" CheckState="UnChecked">
+        <ContourPocketTool></ContourPocketTool>
+        <ContourPocketWithHighProirity isChecked="UnChecked"/>
+        <ContourPocketToolPosition>rechts</ContourPocketToolPosition>
+    </ContourPocket>
+    <SimpleScarf isAllowed="true" CheckState="UnChecked"/>
+    <OffCut isAllowed="true" CheckState="Checked">
+        <MillFlatLongCuts isChecked="UnChecked">
+            <MaxAngleForMilledFlatLongCuts>0</MaxAngleForMilledFlatLongCuts>
+            <MinLengthForMilledFlatLongCuts>0</MinLengthForMilledFlatLongCuts>
+        </MillFlatLongCuts>
+    </OffCut>
+    <BlockHouseHalfLap isAllowed="true" CheckState="Checked">
+        <MinLengthForBlockHouseHalfLaps>0</MinLengthForBlockHouseHalfLaps>
+        <MaxLengthForBlockHouseHalfLaps>44</MaxLengthForBlockHouseHalfLaps>
+        <RecognizeBlockHouseHalfLapsDrillings>Unchecked</RecognizeBlockHouseHalfLapsDrillings>
+        <RecognizeChamferedLapsAsBlockHouseHalfLap isChecked="Unchecked">
+            <DoRecognizeInnerLapForBlockHouseHalfLap>Unchecked</DoRecognizeInnerLapForBlockHouseHalfLap>
+        </RecognizeChamferedLapsAsBlockHouseHalfLap>
+    </BlockHouseHalfLap>
+    <BlockingGroove isAllowed="true" CheckState="UnChecked">
+        <MaxWidthForBlockingGroove>0</MaxWidthForBlockingGroove>
+        <MaxDepthForBlockingGroove>0</MaxDepthForBlockingGroove>
+        <DoRecognizeSingleAndDoubleBlockingGrooves isChecked="Checked"/>
+        <DoRecognizeOnlyDoubleBlockingGrooves isChecked="UnChecked"/>
+        <DoRecognizeAllAnglesAsBlockingGrooves isChecked="Checked"/>
+        <DoRecognizeOnlyPerpendicularBlockingGrooves isChecked="UnChecked"/>
+        <DoRecognizeOnlyDiagonalBlockingGrooves isChecked="UnChecked"/>
+    </BlockingGroove>
+    <RidgeLap isAllowed="true" CheckState="UnChecked">
+        <DrillRidgeLap isChecked="UnChecked">
+            <DiameterForDrilledRidgeLap>8</DiameterForDrilledRidgeLap>
+        </DrillRidgeLap>
+    </RidgeLap>
+    <DoubleCut isAllowed="true" CheckState="UnChecked">
+        <DoubleCutType>convex and concave</DoubleCutType>
+    </DoubleCut>
+    <ContourOutline isAllowed="true" CheckState="UnChecked">
+        <Outline isChecked="UnChecked" AsProcess="False"/>
+        <Aperture isChecked="UnChecked" AsProcess="True"/>
+        <DoOutlineApertureForPanels isAllowed="True" isChecked="False"/>
+        <DoOutlineApertureForBeams isAllowed="True" isChecked="True"/>
+        <DoOutlineApertureForNestingRawparts isAllowed="False" isChecked="False"/>
+        <DoOutlineApertureSimplify isChecked="UnChecked" Distance="0"/>
+        <OutlineApertureInclination>NoSlope</OutlineApertureInclination>
+        <DoLimitProcessingsOnOutlineAperture isChecked="UnChecked"/>
+    </ContourOutline>
+    <ContourRabbet isAllowed="true" CheckState="UnChecked">
+        <ContourRabbetTool></ContourRabbetTool>
+        <ContourRabbetWithHighProirity isChecked="UnChecked"/>
+        <ContourRabbetToolPosition>mitting</ContourRabbetToolPosition>
+    </ContourRabbet>
+    <Markings isAllowed="true" CheckState="UnChecked">
+        <SizeOfActiveMarkingDefinitions>0</SizeOfActiveMarkingDefinitions>
+        <ConvertMarking2Birdmouth Checked="false" MarkingNotchType0="true" MarkingNotchType1="false" MarkingNotchType3="false" BirdmouthDepth="4"/>
+        <SuppressDoubleMarkings Checked="false" DoubleMarkingsMaxDist="100000"/>
+    </Markings>
+    <ScarfJoint isAllowed="true" CheckState="Checked"/>
+    <ContourDado isAllowed="true" CheckState="UnChecked">
+        <ContourDadoTool></ContourDadoTool>
+        <ContourDadoWithHighProirity isChecked="UnChecked"/>
+        <ContourDadoToolPosition>rechts</ContourDadoToolPosition>
+    </ContourDado>
+    <StepJoint isAllowed="false" CheckState="UnChecked"/>
+    <LengtheningSplit isAllowed="true">
+        <Extend Checked="false" Value="17"/>
+        <Divide Checked="false" MinLength="44"/>
+    </LengtheningSplit>
+    <Drillings isAllowed="true" CheckState="UnChecked">
+        <Bolt isChecked="UnChecked"/>
+        <VBA isChecked="UnChecked"/>
+        <DrillingsWithinEndtypes isChecked="UnChecked"/>
+        <ConstructedDrillings isChecked="UnChecked">
+            <MaxDiameterForConstructedDrillings>500</MaxDiameterForConstructedDrillings>
+        </ConstructedDrillings>
+        <DrillingsWithAxisOutside isChecked="Checked"/>
+        <DonotRecognizeDrillingsWithClashOnlyOverTheFrontSurface isChecked="Checked"/>
+        <DonotRecognizeDrillingsFullyInside isChecked="Checked"/>
+    </Drillings>
+    <ReferenceSides isAllowed="true">
+        <DefaultRefside4Log Checked="false" ReferenceSide="3"/>
+        <UserDefinedReferenceSides Use4LapPocket="true" Use4PocketContour="false" Use4DadoContour="false" Use4RabbetContour="false" Use4Drilling="false"/>
+    </ReferenceSides>
+    <CircularArches isAllowed="true">
+        <DrillingAngle4Arcs UseDrillingAngle4Arcs="false" DrillingMaxAngle4Arcs="30"/>
+        <ContourAngle4Arcs UseContourAngle4Arcs="false" ContourMaxAngle4Arcs="20"/>
+    </CircularArches>
+    <HalfLapPocketOption isAllowed="true">
+        <ProcessLongLapsLongitudinal isChecked="UnChecked">
+            <MinLenghtForLapsLongitudinal>1000</MinLenghtForLapsLongitudinal>
+            <SawLapsLongitudinal isChecked="Checked">
+                <SawDiameterForLapsLongitudinal>800</SawDiameterForLapsLongitudinal>
+            </SawLapsLongitudinal>
+            <MillLapsLongitudinal isChecked="UnChecked">
+                <MillDiameterForLapsLongitudinal>350</MillDiameterForLapsLongitudinal>
+            </MillLapsLongitudinal>
+            <ProcessLapsLongitudinalWithSharpEnds isChecked="UnChecked">
+                <SawEndsInLapsLongitudinal isChecked="Checked"/>
+                <MillEndsInLapsLongitudinal isChecked="UnChecked">
+                    <MillWidthForEndsInLapsLongitudinal>120</MillWidthForEndsInLapsLongitudinal>
+                </MillEndsInLapsLongitudinal>
+                <PenetrateEndsInLapsLongitudinal isChecked="UnChecked">
+                    <EdgeDistanceForPenetrateInLapsLongitudinal>20</EdgeDistanceForPenetrateInLapsLongitudinal>
+                    <FingermillDiameterForEndsInLapsLongitudinal>0</FingermillDiameterForEndsInLapsLongitudinal>
+                </PenetrateEndsInLapsLongitudinal>
+            </ProcessLapsLongitudinalWithSharpEnds>
+        </ProcessLongLapsLongitudinal>
+    </HalfLapPocketOption>
+    <SlotOption isAllowed="true">
+        <Slot2DadoConvert Checked="false" MaxWidth="10" SawWidth="6" WidthOverlap="0" FromBothSides="false" Depth4BothSides="200" DepthOverlap="0"/>
+        <Slot2LapConvert Checked="false" MinWidth="200" FromBothSides="false" Depth4BothSides="200" DepthOverlap="10"/>
+    </SlotOption>
+</MachineSettings>
