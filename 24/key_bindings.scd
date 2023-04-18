@@ -139,4 +139,24 @@ idummy		#:#0
 idummy		#:#0
 idummy		#:#0
 cdummy		#:#
+modifer		#:#3
+Keycode		#:#2
+NrKategorie		#:#0
+NrBefehl		#:#0
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+cdummy		#:#
+modifer		#:#0
+Keycode		#:#3
+NrKategorie		#:#33
+NrBefehl		#:#444
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+cdummy		#:#
 end of data v24
