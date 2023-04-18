@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MachineSettings SettingGuid="{F0C4EA74-5A18-4228-B93A-7E64C44ADFFB}">
+<MachineSettings SettingGuid="{E4E3503E-A5CB-48DF-BCF6-8EC1B594BFF9}">
     <TyroleanDoveTail isAllowed="true" CheckState="UnChecked">
         <ToolAngleForTyroleanDoveTail>0</ToolAngleForTyroleanDoveTail>
     </TyroleanDoveTail>
@@ -186,7 +186,7 @@
         <ConvertMarking2Birdmouth Checked="false" MarkingNotchType0="true" MarkingNotchType1="false" MarkingNotchType3="false" BirdmouthDepth="4"/>
         <SuppressDoubleMarkings Checked="false" DoubleMarkingsMaxDist="100000"/>
     </Markings>
-    <ScarfJoint isAllowed="true" CheckState="Checked"/>
+    <ScarfJoint isAllowed="true" CheckState="UnChecked"/>
     <ContourDado isAllowed="true" CheckState="UnChecked">
         <ContourDadoTool></ContourDadoTool>
         <ContourDadoWithHighProirity isChecked="UnChecked"/>
@@ -210,7 +210,7 @@
     </Drillings>
     <ReferenceSides isAllowed="true">
         <DefaultRefside4Log Checked="false" ReferenceSide="3"/>
-        <UserDefinedReferenceSides Use4LapPocket="true" Use4PocketContour="false" Use4DadoContour="false" Use4RabbetContour="false" Use4Drilling="false"/>
+        <UserDefinedReferenceSides Use4LapPocket="false" Use4PocketContour="false" Use4DadoContour="false" Use4RabbetContour="false" Use4Drilling="false"/>
     </ReferenceSides>
     <CircularArches isAllowed="true">
         <DrillingAngle4Arcs UseDrillingAngle4Arcs="false" DrillingMaxAngle4Arcs="30"/>
