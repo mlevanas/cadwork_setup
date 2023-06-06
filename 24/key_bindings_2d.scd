@@ -109,4 +109,14 @@ idummy		#:#0
 idummy		#:#0
 idummy		#:#0
 cdummy		#:#
+modifer		#:#0
+Keycode		#:#4
+NrKategorie		#:#3
+NrBefehl		#:#307
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+cdummy		#:#
 end of data v24
