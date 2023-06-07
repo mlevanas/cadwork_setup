@@ -1,4 +1,4 @@
-version 24
+version 29
 modifer		#:#1
 Keycode		#:#2
 NrKategorie		#:#17
@@ -79,16 +79,6 @@ idummy		#:#0
 idummy		#:#0
 idummy		#:#0
 cdummy		#:#
-modifer		#:#0
-Keycode		#:#12
-NrKategorie		#:#0
-NrBefehl		#:#0
-idummy		#:#0
-idummy		#:#0
-idummy		#:#0
-idummy		#:#0
-idummy		#:#0
-cdummy		#:#
 modifer		#:#1
 Keycode		#:#4
 NrKategorie		#:#17
@@ -119,4 +109,14 @@ idummy		#:#0
 idummy		#:#0
 idummy		#:#0
 cdummy		#:#
-end of data v24
+modifer		#:#0
+Keycode		#:#12
+NrKategorie		#:#1
+NrBefehl		#:#118
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+cdummy		#:#
+end of data v29
