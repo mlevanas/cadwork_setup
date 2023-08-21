@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <Settings>
     <VisibleColumns showInternalColumns="Unchecked" dialogDisplayColumnName="Edited">
-        <column id="NUMBER_PRODUCTION_LISTE" width="149"/>
-        <column id="WIDTH_REAL" width="152"/>
-        <column id="HEIGHT_REAL" width="159"/>
-        <column id="LENGTH_REAL" width="139"/>
-        <column id="USER_01_ID" width="66"/>
+        <column id="NUMBER_PRODUCTION_LISTE" width="38"/>
+        <column id="WIDTH_REAL" width="129"/>
+        <column id="HEIGHT_REAL" width="101"/>
+        <column id="LENGTH_REAL" width="82"/>
+        <column id="NAME_ID" width="-206"/>
         <column id="USER_02_ID" width="-45"/>
-        <column id="COMMENT_ID" width="-93"/>
         <column id="QUANTITY" width="83"/>
-        <column id="NAME_ID" width="134"/>
+        <column id="COMMENT_ID" width="82"/>
+        <column id="GROUP_ID" width="-179"/>
     </VisibleColumns>
     <SortingColumns showOnlySelectedColumns="false" total_summary="false"/>
     <MergingCriteria value="NoProductionList"/>
@@ -54,7 +54,7 @@
             <NumberOfDecimals>-1</NumberOfDecimals>
             <Unit></Unit>
         </column>
-        <column id="NUMBER_PRODUCTION_LISTE" editedName="" csvName="">
+        <column id="NUMBER_PRODUCTION_LISTE" editedName="Eil. nr." csvName="">
             <Alignment>Right</Alignment>
             <NumberOfDecimals>-1</NumberOfDecimals>
             <Unit></Unit>
@@ -84,7 +84,7 @@
             <NumberOfDecimals>2</NumberOfDecimals>
             <Unit></Unit>
         </column>
-        <column id="NAME_ID" editedName="" csvName="">
+        <column id="NAME_ID" editedName="Pavadinimas" csvName="">
             <Alignment>Right</Alignment>
             <NumberOfDecimals>-1</NumberOfDecimals>
             <Unit></Unit>
@@ -99,7 +99,7 @@
             <NumberOfDecimals>-1</NumberOfDecimals>
             <Unit></Unit>
         </column>
-        <column id="COMMENT_ID" editedName="" csvName="">
+        <column id="COMMENT_ID" editedName="Komentaras" csvName="">
             <Alignment>Right</Alignment>
             <NumberOfDecimals>-1</NumberOfDecimals>
             <Unit></Unit>
@@ -169,7 +169,7 @@
             <NumberOfDecimals>-1</NumberOfDecimals>
             <Unit></Unit>
         </column>
-        <column id="QUANTITY" editedName="" csvName="">
+        <column id="QUANTITY" editedName="Kiekis" csvName="">
             <Alignment>Center</Alignment>
             <NumberOfDecimals>-1</NumberOfDecimals>
             <Unit></Unit>
@@ -189,17 +189,17 @@
             <NumberOfDecimals>-1</NumberOfDecimals>
             <Unit></Unit>
         </column>
-        <column id="WIDTH_REAL" editedName="" csvName="">
+        <column id="WIDTH_REAL" editedName="Plotis" csvName="">
             <Alignment>Center</Alignment>
             <NumberOfDecimals>0</NumberOfDecimals>
             <Unit>mm</Unit>
         </column>
-        <column id="HEIGHT_REAL" editedName="" csvName="">
+        <column id="HEIGHT_REAL" editedName="Aukštis" csvName="">
             <Alignment>Center</Alignment>
             <NumberOfDecimals>0</NumberOfDecimals>
             <Unit>mm</Unit>
         </column>
-        <column id="LENGTH_REAL" editedName="" csvName="">
+        <column id="LENGTH_REAL" editedName="Ilgis" csvName="">
             <Alignment>Center</Alignment>
             <NumberOfDecimals>0</NumberOfDecimals>
             <Unit>mm</Unit>
@@ -822,7 +822,7 @@
     </UnitsAndAlignments>
     <FrameAroundList type="Normal" color="#000000"/>
     <FrameUnderHeader type="Normal" color="#000000"/>
-    <FrameGeneralGrid type="Normal" color="#000000"/>
+    <FrameGeneralGrid type="Dotted" color="#000000"/>
     <FrameAboveSummary type="Normal" color="#000000"/>
     <FrameBelowSummary type="Normal" color="#000000"/>
     <FrameVertical type="Normal" color="#000000"/>
@@ -904,7 +904,7 @@ carport made of wood</Content>
             <TopLineFooterItem>Blank</TopLineFooterItem>
         </TopLineFooterList>
         <FontToplineFooter>
-            <Font name="Tahoma" italic="false" bold="true" size="12"/>
+            <Font name="Tahoma" italic="false" bold="true" size="20"/>
             <ForegroundColor alpha="255">#000000</ForegroundColor>
             <BackgroundColor alpha="255">#ffffff</BackgroundColor>
         </FontToplineFooter>
@@ -920,20 +920,20 @@ carport made of wood</Content>
         <DecimalSeparator></DecimalSeparator>
         <UnitExport adaptUnit="true" unitAs="Inches"/>
     </CsvExport>
-    <GeneralData currentID="17077849">
+    <GeneralData currentID="17197402">
         <UserDefinedName1></UserDefinedName1>
         <UserDefinedName2></UserDefinedName2>
         <UserDefinedName3></UserDefinedName3>
         <UserDefinedName4></UserDefinedName4>
         <UserDefinedName5></UserDefinedName5>
         <UserDefinedName6></UserDefinedName6>
-        <GeneralSettings Id="17077849">
+        <GeneralSettings Id="17197402">
             <ExportType>1</ExportType>
-            <Filename3D>6258-TRIO.3d</Filename3D>
-            <ExportTime>Tue Aug 15 2023 - 10:08:40</ExportTime>
+            <Filename3D>6490-LIVINGTON.3d</Filename3D>
+            <ExportTime>Fri Aug 18 2023 - 14:58:43</ExportTime>
             <DesignerName></DesignerName>
             <ProjectNumber></ProjectNumber>
-            <ProjectName>6258-TRIO</ProjectName>
+            <ProjectName>6490-LIVINGTON</ProjectName>
             <ProjectPart></ProjectPart>
             <ArchitectName></ArchitectName>
             <CustomerName></CustomerName>
@@ -994,6 +994,6 @@ carport made of wood</ProjectDestription>
         <IntermediateLength>500</IntermediateLength>
     </optimization>
     <SelctedXSections/>
-    <HorozintalHeader height="-28" titleHeight="-22"/>
+    <HorozintalHeader height="25" titleHeight="-22"/>
     <VerticalHeader width="90"/>
 </Settings>
