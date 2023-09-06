@@ -5,11 +5,11 @@
         <column id="WIDTH_REAL" width="129"/>
         <column id="HEIGHT_REAL" width="101"/>
         <column id="LENGTH_REAL" width="82"/>
-        <column id="NAME_ID" width="-206"/>
+        <column id="USER_03_ID" width="-122"/>
         <column id="USER_02_ID" width="-45"/>
-        <column id="QUANTITY" width="83"/>
-        <column id="COMMENT_ID" width="82"/>
-        <column id="GROUP_ID" width="-179"/>
+        <column id="QUANTITY" width="-41"/>
+        <column id="COMMENT_ID" width="105"/>
+        <column id="GROUP_ID" width="100"/>
     </VisibleColumns>
     <SortingColumns showOnlySelectedColumns="false" total_summary="false"/>
     <MergingCriteria value="NoProductionList"/>
@@ -119,7 +119,7 @@
             <NumberOfDecimals>-1</NumberOfDecimals>
             <Unit></Unit>
         </column>
-        <column id="USER_03_ID" editedName="" csvName="">
+        <column id="USER_03_ID" editedName="Pavadinimas" csvName="">
             <Alignment>Right</Alignment>
             <NumberOfDecimals>-1</NumberOfDecimals>
             <Unit></Unit>
@@ -915,25 +915,25 @@ carport made of wood</Content>
         <LogoImageWidth isSizeAdaptable="true" width="25"/>
         <LogoInAreaAlignment Horizontal="Left" Vertical="Top"/>
     </TopOfPage>
-    <CsvExport exportHeaderData="true" exportColumnTitles="false" useStandardColumnTitle="true" exportTitleAboveData="true" showOnlySelectedColumns="false" generateCsvFileAutomatically="false" generateUnicodeCsvFile="true">
-        <ColumnSeparator></ColumnSeparator>
-        <DecimalSeparator></DecimalSeparator>
+    <CsvExport exportHeaderData="false" exportColumnTitles="false" useStandardColumnTitle="true" exportTitleAboveData="true" showOnlySelectedColumns="false" generateCsvFileAutomatically="false" generateUnicodeCsvFile="true">
+        <ColumnSeparator>;</ColumnSeparator>
+        <DecimalSeparator>.</DecimalSeparator>
         <UnitExport adaptUnit="true" unitAs="Inches"/>
     </CsvExport>
-    <GeneralData currentID="17197402">
+    <GeneralData currentID="17112603">
         <UserDefinedName1></UserDefinedName1>
         <UserDefinedName2></UserDefinedName2>
         <UserDefinedName3></UserDefinedName3>
         <UserDefinedName4></UserDefinedName4>
         <UserDefinedName5></UserDefinedName5>
         <UserDefinedName6></UserDefinedName6>
-        <GeneralSettings Id="17197402">
+        <GeneralSettings Id="17112603">
             <ExportType>1</ExportType>
-            <Filename3D>6490-LIVINGTON.3d</Filename3D>
-            <ExportTime>Fri Aug 18 2023 - 14:58:43</ExportTime>
+            <Filename3D>7323-NICOLE.3d</Filename3D>
+            <ExportTime>Wed Sep 6 2023 - 09:40:33</ExportTime>
             <DesignerName></DesignerName>
             <ProjectNumber></ProjectNumber>
-            <ProjectName>6490-LIVINGTON</ProjectName>
+            <ProjectName>7323-NICOLE</ProjectName>
             <ProjectPart></ProjectPart>
             <ArchitectName></ArchitectName>
             <CustomerName></CustomerName>
