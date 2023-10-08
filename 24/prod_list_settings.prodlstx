@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <Setting NumberByAssemblyNumber="false" GeometryList="false" DeductOpenings="false" MinOpeningSize="0" DeductionPortion="0" WidthDefinition="2" ConsiderSurfaces="true" ConsiderElementsWithoutList="true" ConsiderNodesVbm="true" ConsiderAxisCrossSection="true" ConsiderAxisBolt="true" ConsiderAxisEaves="true" ConsiderAxisNormal="true" ConsiderNodesStandard="true">
+        <ComparisonCriterion Type="1" Active="true" SortingCriterion="true" SortOrder="1" SortIndex="1"/>
+        <ComparisonCriterion Type="2" Active="true" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="3" Active="true" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="4" Active="true" SortingCriterion="true" SortOrder="1" SortIndex="2"/>
+        <ComparisonCriterion Type="5" Active="true" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="6" Active="false" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="7" Active="false" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="8" Active="false" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="9" Active="false" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="10" Active="false" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="11" Active="false" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="12" Active="false" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="13" UserAttributeIndex="1" Active="true" SortingCriterion="true" SortOrder="1" SortIndex="4"/>
+        <ComparisonCriterion Type="13" UserAttributeIndex="2" Active="true" SortingCriterion="true" SortOrder="1" SortIndex="3"/>
+        <ComparisonCriterion Type="13" UserAttributeIndex="3" Active="false" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="13" UserAttributeIndex="4" Active="false" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="13" UserAttributeIndex="5" Active="false" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="13" UserAttributeIndex="6" Active="false" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="13" UserAttributeIndex="7" Active="false" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="13" UserAttributeIndex="8" Active="false" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="13" UserAttributeIndex="9" Active="false" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+        <ComparisonCriterion Type="13" UserAttributeIndex="10" Active="false" SortingCriterion="false" SortOrder="1" SortIndex="0"/>
+    </Setting>
+</Root>
