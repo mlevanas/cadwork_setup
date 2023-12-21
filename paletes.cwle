@@ -1,0 +1,1003 @@
+<?xml version="1.0"?>
+<Settings>
+    <VisibleColumns showInternalColumns="Unchecked" dialogDisplayColumnName="Edited">
+        <column id="NUMBER_PRODUCTION_LISTE" width="38"/>
+        <column id="WIDTH_REAL" width="129"/>
+        <column id="HEIGHT_REAL" width="101"/>
+        <column id="LENGTH_REAL" width="82"/>
+        <column id="USER_03_ID" width="-128"/>
+        <column id="USER_02_ID" width="-45"/>
+        <column id="USER_04_ID" width="-67"/>
+        <column id="QUANTITY" width="-41"/>
+        <column id="COMMENT_ID" width="82"/>
+        <column id="GROUP_ID" width="-182"/>
+    </VisibleColumns>
+    <SortingColumns showOnlySelectedColumns="true" total_summary="false">
+        <column id="NUMBER_PRODUCTION_LISTE" sorting_order="ascending" isSummaryRow="false"/>
+        <column id="USER_04_ID" sorting_order="ascending" isSummaryRow="false"/>
+    </SortingColumns>
+    <MergingCriteria value="ElementsRange"/>
+    <ListType value="ProductionList"/>
+    <VisibleElements>
+        <TypeFilterCriteria>(0|1|2|3|4|5|6|15|16|17|18|19|7|8|9|10|12|11|13|14)</TypeFilterCriteria>
+        <ModTypeFilterCriteria>(1|2|4|8)</ModTypeFilterCriteria>
+    </VisibleElements>
+    <FontShadingHeader>
+        <Font name="Arial" italic="false" bold="true" size="10"/>
+        <ForegroundColor alpha="255">#000000</ForegroundColor>
+        <BackgroundColor alpha="255">#c0c0c0</BackgroundColor>
+    </FontShadingHeader>
+    <FontShadingData BackgroundEverySecongRow="true" UseForHeaderAndSummaryRows="true" HideBackgroundColorsForPrinting="false">
+        <Font name="Tahoma" italic="false" bold="false" size="10"/>
+        <ForegroundColor alpha="255">#000000</ForegroundColor>
+        <BackgroundColor alpha="255">#ffffff</BackgroundColor>
+    </FontShadingData>
+    <FontShadingSummary>
+        <Font name="MS Shell Dlg 2" italic="false" bold="false" size="8"/>
+        <ForegroundColor alpha="255">#000000</ForegroundColor>
+        <BackgroundColor alpha="255">#ffffff</BackgroundColor>
+    </FontShadingSummary>
+    <UnitsAndAlignments verticalAlignment="Center" showUnitRow="false" allowLineBreaksInCells="false" showOnlySelectedColumns="true">
+        <column id="ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="GENERAL_DATA_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="ELEMENT_TYPE" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="PROFILE_NAME" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="NUMBER_PRODUCTION_LISTE" editedName="Eil. nr." csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="NUMBER_TIMBER_LISTE" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="NUMBER_ASSEMBLY_LIST" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="NUMBER_OPTIMIZATION_BAR" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="RESTLENGTH_BAR" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="OFFCUT_BAR" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="NAME_ID" editedName="Pavadinimas" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="GROUP_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="SUBGROUP_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="COMMENT_ID" editedName="Komentaras" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="SKU_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="USER_01_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="USER_02_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="USER_03_ID" editedName="PAVADINIMAS" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="USER_04_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="USER_05_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="USER_06_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="USER_07_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="USER_08_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="USER_09_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="USER_10_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CONNECTOR_FILENAME" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CONNECTOR_INDEX" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="QUANTITY" editedName="Kiekis" csvName="">
+            <Alignment>Center</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="MATERIAL_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="COLOR_NUMBER" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="ELEMENT_MODULE_TYPE" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="WIDTH_REAL" editedName="Plotis" csvName="">
+            <Alignment>Center</Alignment>
+            <NumberOfDecimals>0</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="HEIGHT_REAL" editedName="Aukštis" csvName="">
+            <Alignment>Center</Alignment>
+            <NumberOfDecimals>0</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="LENGTH_REAL" editedName="Ilgis" csvName="">
+            <Alignment>Center</Alignment>
+            <NumberOfDecimals>0</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="WIDTH_LIST" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="HEIGHT_LIST" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="LENGTH_LIST" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="OVER_WIDTH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="OVER_HEIGHT" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="OVER_LENGTH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="ROUNDING_VALUE_WIDTH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="ROUNDING_VALUE_HEIGHT" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="ROUNDING_VALUE_LENGTH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="CLAMPING_LENGTH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="VOLUME_REAL" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm3</Unit>
+        </column>
+        <column id="VOLUME_ROUGH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm3</Unit>
+        </column>
+        <column id="GLOBAL_SURFACE_REAL" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm2</Unit>
+        </column>
+        <column id="GLOBAL_SURFACE_ROUGH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm2</Unit>
+        </column>
+        <column id="SURFACE_REAL" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm2</Unit>
+        </column>
+        <column id="SURFACE_ROUGH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm2</Unit>
+        </column>
+        <column id="SURFACE_COVER" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm2</Unit>
+        </column>
+        <column id="WEIGHT_REAL" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>kN</Unit>
+        </column>
+        <column id="WEIGHT_ROUGH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>kN</Unit>
+        </column>
+        <column id="MOMENT_OF_INERTIA" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="AREA_MOMENT_OF_INERTIA" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="PLANING_SURFACE" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm2</Unit>
+        </column>
+        <column id="PLANING_LENGTH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="AXIS_POINT_1_X" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="AXIS_POINT_1_Y" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="AXIS_POINT_1_Z" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="AXIS_POINT_2_X" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="AXIS_POINT_2_Y" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="AXIS_POINT_2_Z" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="AXIS_POINT_3_X" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="AXIS_POINT_3_Y" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="AXIS_POINT_3_Z" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="ANGLE_HEIGHT_START" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>rad</Unit>
+        </column>
+        <column id="ANGLE_WIDTH_START" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>rad</Unit>
+        </column>
+        <column id="ANGLE_HEIGHT_END" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>rad</Unit>
+        </column>
+        <column id="ANGLE_WIDTH_END" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>rad</Unit>
+        </column>
+        <column id="INTERNAL_TYPE" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="SECTION_TYPE" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="NUMBER_OF_PROCESSINGS" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="ENDTYPE_START_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="ENDTYPE_END_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="SURFACE_CIRCUMFERENCE" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="PROCESSING_TYPE" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="SURFACE_CONVEX_HULL" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm2</Unit>
+        </column>
+        <column id="PERIMETER_CONVEX_HULL" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="VBA_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="PROJECT_NAME_COLUMN" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="PROJECT_NUMBER_COLUMN" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:ENDTYPE_Start_Type" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:ENDTYPE_END_Start" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:ENDTYPES_COUNT" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:PRICE" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:PRICE_TYPE" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:DISPLAY_INPUT" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:DISPLAY_UNIT" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:E_MODUL_1" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>kN/cm2</Unit>
+        </column>
+        <column id="CwMaterial:E_MODUL_2" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>kN/cm2</Unit>
+        </column>
+        <column id="CwMaterial:E_MODUL_3" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>kN/cm2</Unit>
+        </column>
+        <column id="CwMaterial:G_MODUL_1" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>kN/cm2</Unit>
+        </column>
+        <column id="CwMaterial:G_MODUL_2" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>kN/cm2</Unit>
+        </column>
+        <column id="CwMaterial:CODE" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:MATERIAL_GROUP" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:PRICE_REAL" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:PRICE_ROUGH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:PARENT_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:RELATION_TYPE" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:CONTAINER_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:CONTAINER_PROD_NO" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:CONTAINER_PART_NO" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:NESTING_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:NESTING_PROD_NO" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:OPTI_BAR_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:OPTI_BAR_PROD_NO" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:OPTI_BAR_PART_NO" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:VBA_BAR_PROD_NO" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:VBA_BAR_PART_NO" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:CALCULATED_VOLUME" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm3</Unit>
+        </column>
+        <column id="CwMaterial:LIST_DIAMETER" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="CwMaterial:REAL_DIAMETER" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="CwMaterial:OVER_DIAMETER" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="CwMaterial:OUTER_DIAMETER" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:INNER_DIAMETER" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:DRILLING_DIAMETER_1" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:DRILLING_DIAMETER_2" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:DRILLING_DEPTH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:REPRESENTATION_SYMBOL" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:ORDERNUMBER" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:ATTRIBUTE_STRENGTH_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:ATTRIBUTE_NORM_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:OPENGING_WIDTH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:ON_BOTH_SIDES" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:ATTRIBUTE_THREAD_ID" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:WEIGHT" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>kg</Unit>
+        </column>
+        <column id="CwMaterial:USER1" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:USER2" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:USER3" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:USER4" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:USER5" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:BOLT_THREAD_LENGTH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_LIST_LENGTH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_REAL_LENGTH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_VOLUME_REAL" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm3</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_VOLUME_ROUGH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm3</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_GLOBAL_SURFACE_REAL" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm2</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_GLOBAL_SURFACE_ROUGH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm2</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_SURFACE_COVER" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm2</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_SURFACE_REAl" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm2</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_SURFACE_ROUGH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm2</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_REST_LENGTH_BAR" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_WEIGHT_REAL" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>kN</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_WEIGHT_ROUGH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>kN</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_NUMBER_OF_PROCESSING" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_PLANING_LENGTH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_PLANING_SURFACE" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm2</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_PRICE_VALUE" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_CALCULATED_VOLUME" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm3</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_ENDTYPES_COUNT" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_PRICE_REAL" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_PRICE_ROUGH" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_SURFACE_CONVEX_HULL" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm2</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_PERIMETER_CONVEX_HULL" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>2</NumberOfDecimals>
+            <Unit>mm</Unit>
+        </column>
+        <column id="CwMaterial:TOTAL_ELEMENT_TYPE" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+        <column id="CwMaterial:OPTIMAL_QT_LENGTH_NUM" editedName="" csvName="">
+            <Alignment>Right</Alignment>
+            <NumberOfDecimals>-1</NumberOfDecimals>
+            <Unit></Unit>
+        </column>
+    </UnitsAndAlignments>
+    <FrameAroundList type="Normal" color="#000000"/>
+    <FrameUnderHeader type="Normal" color="#000000"/>
+    <FrameGeneralGrid type="Dotted" color="#000000"/>
+    <FrameAboveSummary type="Normal" color="#000000"/>
+    <FrameBelowSummary type="Normal" color="#000000"/>
+    <FrameVertical type="Normal" color="#000000"/>
+    <GeneralListModuleSettings>
+        <AllowEditingRealValue>true</AllowEditingRealValue>
+        <DoNotHighlightEditedValuesInPrinting>false</DoNotHighlightEditedValuesInPrinting>
+        <MetalProfileBehingMaterial>false</MetalProfileBehingMaterial>
+        <OpenWithNegativeSurface isChecked="false" realSurfaceTreshold="0"/>
+        <UnitsUsedInDialogs>metric</UnitsUsedInDialogs>
+        <DateFormat>dd-MM-yyyy</DateFormat>
+        <HeaderColumn>None</HeaderColumn>
+        <DisplayZeroAsBlankCell>false</DisplayZeroAsBlankCell>
+        <DistinguishImportedProjects>ProjectName</DistinguishImportedProjects>
+    </GeneralListModuleSettings>
+    <HeaderSetup>
+        <HeaderSetupRow type="ProjectName" isChecked="true"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <HeaderSetupRow type="Blank" isChecked="false"/>
+        <FontHeaderAttribute>
+            <Font name="Tahoma" italic="false" bold="true" size="8"/>
+            <ForegroundColor alpha="255">#000000</ForegroundColor>
+            <BackgroundColor alpha="255">#ffffff</BackgroundColor>
+        </FontHeaderAttribute>
+        <FontHeaderEntry>
+            <Font name="Tahoma" italic="false" bold="true" size="12"/>
+            <ForegroundColor alpha="255">#000000</ForegroundColor>
+            <BackgroundColor alpha="255">#ffffff</BackgroundColor>
+        </FontHeaderEntry>
+    </HeaderSetup>
+    <PageFormat>
+        <PaperSize>A4</PaperSize>
+        <PaperOrientation>Portrait</PaperOrientation>
+        <FitSizeToOnePage isChecked="false"/>
+        <Margin Top="25" Left="25" Bottom="25" Right="25" Inner="10" Position="Top"/>
+        <DistanceFromMargin Header="25" Footer="25"/>
+    </PageFormat>
+    <TextModule>
+        <TextModuleDefinition>
+            <TextModuleItem Id="101" Name="Project description">
+                <Font name="MS Shell Dlg 2" italic="false" bold="false" size="8"/>
+                <ForegroundColor alpha="255">#000000</ForegroundColor>
+                <BackgroundColor alpha="255">#ffffff</BackgroundColor>
+                <Content>first cadwork-training
+carport made of wood</Content>
+            </TextModuleItem>
+        </TextModuleDefinition>
+        <TopList></TopList>
+        <BottomList></BottomList>
+    </TextModule>
+    <TopLineFooter>
+        <DifferentForFirstPage isChecked="false" isFirstPageSelected="true"/>
+        <TopLineFooterList>
+            <TopLineFooterItem>Blank</TopLineFooterItem>
+            <TopLineFooterItem>Blank</TopLineFooterItem>
+            <TopLineFooterItem>ProjectName</TopLineFooterItem>
+            <TopLineFooterItem>Blank</TopLineFooterItem>
+            <TopLineFooterItem>Blank</TopLineFooterItem>
+            <TopLineFooterItem>Blank</TopLineFooterItem>
+            <TopLineFooterItem>Blank</TopLineFooterItem>
+            <TopLineFooterItem>Blank</TopLineFooterItem>
+            <TopLineFooterItem>Blank</TopLineFooterItem>
+            <TopLineFooterItem>Blank</TopLineFooterItem>
+            <TopLineFooterItem>Blank</TopLineFooterItem>
+            <TopLineFooterItem>Blank</TopLineFooterItem>
+        </TopLineFooterList>
+        <FontToplineFooter>
+            <Font name="Tahoma" italic="false" bold="true" size="20"/>
+            <ForegroundColor alpha="255">#000000</ForegroundColor>
+            <BackgroundColor alpha="255">#ffffff</BackgroundColor>
+        </FontToplineFooter>
+    </TopLineFooter>
+    <TopOfPage>
+        <LogoHeader isLogoChecked="false" isHeaderChecked="false" type="1" useLogoOnEachePage="false"/>
+        <LogoFile></LogoFile>
+        <LogoImageWidth isSizeAdaptable="true" width="25"/>
+        <LogoInAreaAlignment Horizontal="Left" Vertical="Top"/>
+    </TopOfPage>
+    <CsvExport exportHeaderData="false" exportColumnTitles="false" useStandardColumnTitle="true" exportTitleAboveData="true" showOnlySelectedColumns="false" generateCsvFileAutomatically="false" generateUnicodeCsvFile="true">
+        <ColumnSeparator>;</ColumnSeparator>
+        <DecimalSeparator>.</DecimalSeparator>
+        <UnitExport adaptUnit="true" unitAs="Inches"/>
+    </CsvExport>
+    <GeneralData currentID="17578239">
+        <UserDefinedName1></UserDefinedName1>
+        <UserDefinedName2></UserDefinedName2>
+        <UserDefinedName3></UserDefinedName3>
+        <UserDefinedName4></UserDefinedName4>
+        <UserDefinedName5></UserDefinedName5>
+        <UserDefinedName6></UserDefinedName6>
+        <GeneralSettings Id="17578239">
+            <ExportType>1</ExportType>
+            <Filename3D>AV2574NF.3d</Filename3D>
+            <ExportTime>Wed Dec 13 2023 - 09:29:11</ExportTime>
+            <DesignerName></DesignerName>
+            <ProjectNumber></ProjectNumber>
+            <ProjectName></ProjectName>
+            <ProjectPart></ProjectPart>
+            <ArchitectName></ArchitectName>
+            <CustomerName></CustomerName>
+            <ProjectDeadline></ProjectDeadline>
+            <ProjectDestription>first cadwork-training
+carport made of wood</ProjectDestription>
+            <ProjectUserTitle1>Text 1</ProjectUserTitle1>
+            <ProjectUserTitle2>Text 2</ProjectUserTitle2>
+            <ProjectUserTitle3>Text 3</ProjectUserTitle3>
+            <ProjectUserTitle4>Text 4</ProjectUserTitle4>
+            <ProjectUserTitle5>Text 5</ProjectUserTitle5>
+            <ProjectUserTitle6></ProjectUserTitle6>
+            <ProjectUserTitle7></ProjectUserTitle7>
+            <ProjectUserTitle8></ProjectUserTitle8>
+            <ProjectUserTitle9></ProjectUserTitle9>
+            <ProjectUserTitle10></ProjectUserTitle10>
+            <ProjectUserValue1></ProjectUserValue1>
+            <ProjectUserValue2></ProjectUserValue2>
+            <ProjectUserValue3></ProjectUserValue3>
+            <ProjectUserValue4></ProjectUserValue4>
+            <ProjectUserValue5></ProjectUserValue5>
+            <ProjectUserValue6></ProjectUserValue6>
+            <ProjectUserValue7></ProjectUserValue7>
+            <ProjectUserValue8></ProjectUserValue8>
+            <ProjectUserValue9></ProjectUserValue9>
+            <ProjectUserValue10></ProjectUserValue10>
+            <UserAttributeTitle01>User 1</UserAttributeTitle01>
+            <UserAttributeTitle02>User 2</UserAttributeTitle02>
+            <UserAttributeTitle03>User 3</UserAttributeTitle03>
+            <UserAttributeTitle04>User 4</UserAttributeTitle04>
+            <UserAttributeTitle05>User 5</UserAttributeTitle05>
+            <UserAttributeTitle06>Ïîëüçîâàòåëü6</UserAttributeTitle06>
+            <UserAttributeTitle07>Ïîëüçîâàòåëü7</UserAttributeTitle07>
+            <UserAttributeTitle08>Ïîëüçîâàòåëü8</UserAttributeTitle08>
+            <UserAttributeTitle09>Ïîëüçîâàòåëü9</UserAttributeTitle09>
+            <UserAttributeTitle10>Ïîëüçîâàòåëü10</UserAttributeTitle10>
+            <Date></Date>
+            <Blank></Blank>
+            <PageNumber></PageNumber>
+            <PageOfPageCount></PageOfPageCount>
+            <ListFileName></ListFileName>
+            <ListFilePath></ListFilePath>
+            <ListType></ListType>
+            <UserDefined1Value></UserDefined1Value>
+            <UserDefined2Value></UserDefined2Value>
+            <UserDefined3Value></UserDefined3Value>
+            <UserDefined4Value></UserDefined4Value>
+            <UserDefined5Value></UserDefined5Value>
+            <UserDefined6Value></UserDefined6Value>
+        </GeneralSettings>
+    </GeneralData>
+    <optimization UsesAutoLength="UnChecked" UseSingleLengthOptimization="UnChecked" AppendRestLength="UnChecked" AppendSettings="NoAppend" AppendNr="ProductionList" useProductionListDimension="true">
+        <BladeWidth>8</BladeWidth>
+        <FrontCut>20</FrontCut>
+        <EndCut>20</EndCut>
+        <ShortestLength>1000</ShortestLength>
+        <LongestLength>12000</LongestLength>
+        <IntermediateLength>500</IntermediateLength>
+    </optimization>
+    <SelctedXSections/>
+    <HorozintalHeader height="25" titleHeight="-22"/>
+    <VerticalHeader width="90"/>
+</Settings>
