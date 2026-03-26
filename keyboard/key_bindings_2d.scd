@@ -169,4 +169,14 @@ idummy		#:#0
 idummy		#:#0
 idummy		#:#0
 cdummy		#:#
+modifer		#:#0
+Keycode		#:#10
+NrKategorie		#:#6
+NrBefehl		#:#615
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+idummy		#:#0
+cdummy		#:#
 end of data v29
